@@ -8,7 +8,13 @@ const PORT = process.env.PORT || 3000;
 
 // Configuration CORS pour autoriser les requêtes depuis make.powerapps.com
 const corsOptions = {
-    origin: 'https://make.powerapps.com',
+            // Ajout de votre environnement PowerApps et Dynamics
+    origin: [
+        'https://make.powerapps.com',
+        'https://davant-preprod.crm12.dynamics.com', // Ajout de l'environnement de Preproduction
+        'https://davant.crm12.dynamics.com'// Ajout de l'environnement de production
+
+    ],
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders: [
         'Authorization',
