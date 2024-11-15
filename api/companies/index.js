@@ -1,15 +1,39 @@
 const axios = require('axios');
+const express = require('express');
+const cors = require('cors');
+require('dotenv').config();
 
-module.exports = async (req, res) => {
-    // Récupérer le SIREN depuis l'URL
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+// Configuration CORS pour autoriser les requêtes depuis make.powerapps.com
+const corsOptions = {
+    origin: 'https://make.powerapps.com',
+    methods: ['GET', 'POST', 'OPTIONS'],
+    allowedHeaders: [
+        'Authorization',
+        'Content-Type',
+        'mscrm.mergelabels',
+        'mscrm.solutionuniquename',
+        'prefer',
+        'x-ms-client-request-id',
+        'x-ms-client-session-id'
+    ]
+};
+
+// Utiliser CORS avec les options définies
+app.use(cors(corsOptions));
+
+// Endpoint principal pour récupérer les données d'une entreprise via son SIREN
+app.get('/api/companies', async (req, res) => {
     const siren = req.query.siren;
-    
+
     if (!siren) {
         return res.status(400).json({ error: 'SIREN requis' });
     }
-    
+
     try {
-        // Login INPI
+        // Connexion à l'API INPI pour obtenir un token
         const loginResponse = await axios.post('https://registre-national-entreprises.inpi.fr/api/sso/login', {
             username: process.env.INPI_USERNAME,
             password: process.env.INPI_PASSWORD
@@ -17,7 +41,7 @@ module.exports = async (req, res) => {
 
         const token = loginResponse.data.token;
 
-        // Appel API INPI
+        // Requête API INPI avec le token
         const apiResponse = await axios.get(
             `https://registre-national-entreprises.inpi.fr/api/companies/${siren}`,
             {
@@ -35,4 +59,9 @@ module.exports = async (req, res) => {
             details: error.response?.data
         });
     }
-};
+});
+
+// Lancer le serveur
+app.listen(PORT, () => {
+    console.log(`Serveur en cours d'exécution sur le port ${PORT}`);
+});
