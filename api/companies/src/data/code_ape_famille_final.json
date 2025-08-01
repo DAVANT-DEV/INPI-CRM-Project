@@ -1,0 +1,650 @@
+[
+  {
+    "code_ape":"5510Z",
+    "libelle":"Hôtels et hébergement similaire ",
+    "famille_crm":{
+      "id":"28788120-9591-ed11-aacf-000d3ae75267",
+      "name":"HOTEL",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"5520Z",
+    "libelle":"Hébergement touristique et autre hébergement de courte durée ",
+    "famille_crm":{
+      "id":"28788120-9591-ed11-aacf-000d3ae75267",
+      "name":"HOTEL",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"5610A",
+    "libelle":"Restauration traditionnelle",
+    "famille_crm":{
+      "id":"20788120-9591-ed11-aacf-000d3ae75267",
+      "name":"CHR",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"5610C",
+    "libelle":"Restauration de type rapide",
+    "famille_crm":{
+      "id":"20788120-9591-ed11-aacf-000d3ae75267",
+      "name":"CHR",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"5630Z",
+    "libelle":"Débits de boissons",
+    "famille_crm":{
+      "id":"20788120-9591-ed11-aacf-000d3ae75267",
+      "name":"CHR",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"9001Z",
+    "libelle":"Arts du spectacle vivant",
+    "famille_crm":{
+      "id":"2a788120-9591-ed11-aacf-000d3ae75267",
+      "name":"LOISIR",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"9002Z",
+    "libelle":"Activités de soutien au spectacle vivant",
+    "famille_crm":{
+      "id":"2a788120-9591-ed11-aacf-000d3ae75267",
+      "name":"LOISIR",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"9103Z",
+    "libelle":"Gestion des sites et monuments historiques et des attractions touristiques similaires",
+    "famille_crm":{
+      "id":"2a788120-9591-ed11-aacf-000d3ae75267",
+      "name":"LOISIR",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"9311Z",
+    "libelle":"Gestion d'installations sportives",
+    "famille_crm":{
+      "id":"2a788120-9591-ed11-aacf-000d3ae75267",
+      "name":"LOISIR",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"9312Z",
+    "libelle":"Activités de clubs de sports",
+    "famille_crm":{
+      "id":"2a788120-9591-ed11-aacf-000d3ae75267",
+      "name":"LOISIR",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"9321Z",
+    "libelle":"Activités des parcs d'attractions et parcs à thèmes",
+    "famille_crm":{
+      "id":"2a788120-9591-ed11-aacf-000d3ae75267",
+      "name":"LOISIR",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"0115Z",
+    "libelle":"Culture du tabac",
+    "famille_crm":{
+      "id":"1a788120-9591-ed11-aacf-000d3ae75267",
+      "name":"BURALISTE",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"1200Z",
+    "libelle":"Fabrication de produits à base de tabac",
+    "famille_crm":{
+      "id":"1a788120-9591-ed11-aacf-000d3ae75267",
+      "name":"BURALISTE",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4617B",
+    "libelle":"Autres intermédiaires du commerce en denrées, boissons et tabac",
+    "famille_crm":{
+      "id":"1a788120-9591-ed11-aacf-000d3ae75267",
+      "name":"BURALISTE",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4621Z",
+    "libelle":"Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail ",
+    "famille_crm":{
+      "id":"1a788120-9591-ed11-aacf-000d3ae75267",
+      "name":"BURALISTE",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4635Z",
+    "libelle":"Commerce de gros (commerce interentreprises) de produits à base de tabac",
+    "famille_crm":{
+      "id":"1a788120-9591-ed11-aacf-000d3ae75267",
+      "name":"BURALISTE",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4726Z",
+    "libelle":"Commerce de détail de produits à base de tabac en magasin spécialisé",
+    "famille_crm":{
+      "id":"1a788120-9591-ed11-aacf-000d3ae75267",
+      "name":"BURALISTE",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4711A",
+    "libelle":"Commerce de détail de produits surgelés",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4711B",
+    "libelle":"Commerce d'alimentation générale",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4711C",
+    "libelle":"Supérettes",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4711D",
+    "libelle":"Supermarchés",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4711E",
+    "libelle":"Magasins multi-commerces",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4711F",
+    "libelle":"Hypermarchés",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4719A",
+    "libelle":"Grands magasins",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4719B",
+    "libelle":"Autres commerces de détail en magasin non spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4721Z",
+    "libelle":"Commerce de détail de fruits et légumes en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4722Z",
+    "libelle":"Commerce de détail de viandes et de produits à base de viande en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4723Z",
+    "libelle":"Commerce de détail de poissons, crustacés et mollusques en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4724Z",
+    "libelle":"Commerce de détail de pain, pâtisserie et confiserie en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4725Z",
+    "libelle":"Commerce de détail de boissons en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4726Z",
+    "libelle":"Commerce de détail de produits à base de tabac en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4729Z",
+    "libelle":"Autres commerces de détail alimentaires en magasin spécialisé ",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4730Z",
+    "libelle":"Commerce de détail de carburants en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4741Z",
+    "libelle":"Commerce de détail d'ordinateurs, d'unités périphériques et de logiciels en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4742Z",
+    "libelle":"Commerce de détail de matériels de télécommunication en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4743Z",
+    "libelle":"Commerce de détail de matériels audio et vidéo en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4751Z",
+    "libelle":"Commerce de détail de textiles en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4752A",
+    "libelle":"Commerce de détail de quincaillerie, peintures et verres en petites surfaces (moins de 400 m2)",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4752B",
+    "libelle":"Commerce de détail de quincaillerie, peintures et verres en grandes surfaces (400 m2et plus)",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4753Z",
+    "libelle":"Commerce de détail de tapis, moquettes et revêtements de murs et de sols en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4754Z",
+    "libelle":"Commerce de détail d'appareils électroménagers en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4759A",
+    "libelle":"Commerce de détail de meubles",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4759B",
+    "libelle":"Commerce de détail d'autres équipements du foyer",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4761Z",
+    "libelle":"Commerce de détail de livres en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4762Z",
+    "libelle":"Commerce de détail de journaux et papeterie en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4763Z",
+    "libelle":"Commerce de détail d'enregistrements musicaux et vidéo en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4764Z",
+    "libelle":"Commerce de détail d'articles de sport en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4765Z",
+    "libelle":"Commerce de détail de jeux et jouets en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4771Z",
+    "libelle":"Commerce de détail d'habillement en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4772A",
+    "libelle":"Commerce de détail de la chaussure",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4772B",
+    "libelle":"Commerce de détail de maroquinerie et d'articles de voyage",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4773Z",
+    "libelle":"Commerce de détail de produits pharmaceutiques en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4774Z",
+    "libelle":"Commerce de détail d'articles médicaux et orthopédiques en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4775Z",
+    "libelle":"Commerce de détail de parfumerie et de produits de beauté en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4776Z",
+    "libelle":"Commerce de détail de fleurs, plantes, graines, engrais, animaux de compagnie et aliments pour ces animaux en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4777Z",
+    "libelle":"Commerce de détail d'articles d'horlogerie et de bijouterie en magasin spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4778A",
+    "libelle":"Commerces de détail d'optique",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4778B",
+    "libelle":"Commerces de détail de charbons et combustibles",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4778C",
+    "libelle":"Autres commerces de détail spécialisés divers",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4779Z",
+    "libelle":"Commerce de détail de biens d'occasion en magasin",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4781Z",
+    "libelle":"Commerce de détail alimentaire sur éventaires et marchés",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4782Z",
+    "libelle":"Commerce de détail de textiles, d'habillement et de chaussures sur éventaires et marchés",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4789Z",
+    "libelle":"Autres commerces de détail sur éventaires et marchés",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4791A",
+    "libelle":"Vente à distance sur catalogue général",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4791B",
+    "libelle":"Vente à distance sur catalogue spécialisé",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4799A",
+    "libelle":"Vente à domicile",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4799B",
+    "libelle":"Vente par automates et autres commerces de détail hors magasin, éventaires ou marchés n.c.a.",
+    "famille_crm":{
+      "id":"22788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COMMERCE ALIMENTAIRE DE PROXIMITÉ",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"4730Z",
+    "libelle":"Commerce de détail de carburants en magasin spécialisé",
+    "famille_crm":{
+      "id":"2c788120-9591-ed11-aacf-000d3ae75267",
+      "name":"STATION SERVICE",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"1071C",
+    "libelle":"Boulangerie et boulangerie-pâtisserie",
+    "famille_crm":{
+      "id":"18788120-9591-ed11-aacf-000d3ae75267",
+      "name":"BOULANGERIE",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"5530Z",
+    "libelle":"Terrains de camping et parcs pour caravanes ou véhicules de loisirs",
+    "famille_crm":{
+      "id":"1c788120-9591-ed11-aacf-000d3ae75267",
+      "name":"CAMPING",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"8299Z",
+    "libelle":"Autres activités de soutien aux entreprises n.c.a.",
+    "famille_crm":{
+      "id":"24788120-9591-ed11-aacf-000d3ae75267",
+      "name":"COWORKING",
+      "entity":"cal_tagfamille"
+    }
+  },
+  {
+    "code_ape":"9200Z",
+    "libelle":"Organisation de jeux de hasard et d'argent",
+    "famille_crm":{
+      "id":"1e788120-9591-ed11-aacf-000d3ae75267",
+      "name":"CASINO JEUX",
+      "entity":"cal_tagfamille"
+    }
+  }
+]
