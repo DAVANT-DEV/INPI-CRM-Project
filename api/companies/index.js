@@ -12,7 +12,9 @@ const corsOptions = {
     origin: [
         'https://make.powerapps.com',
         'https://davant-preprod.crm12.dynamics.com', // Ajout de l'environnement de Preproduction
-        'https://davant.crm12.dynamics.com'// Ajout de l'environnement de production
+        'https://davant.crm12.dynamics.com',// Ajout de l'environnement de production
+        'https://www.augusto-pizza.fr',// Ajout de l'environnement web     
+        'https://augusto-pizza.fr'                 
 
     ],
     methods: ['GET', 'POST', 'OPTIONS'],
@@ -71,3 +73,4 @@ app.get('/api/companies', async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Serveur en cours d'exécution sur le port ${PORT}`);
 });
+//Ajout des domaines augusto-pizza.fr au CORS
