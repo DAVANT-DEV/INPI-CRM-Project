@@ -31,6 +31,7 @@ const corsOptions = {
 
 // Utiliser CORS avec les options définies
 app.use(cors(corsOptions));
+app.options('*', cors(corsOptions));
 
 // Endpoint principal pour récupérer les données d'une entreprise via son SIREN
 app.get('/api/companies', async (req, res) => {
